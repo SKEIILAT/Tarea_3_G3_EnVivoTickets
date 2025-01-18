@@ -6,6 +6,9 @@ import Decorator.AlimentoDecorator;
 import Decorator.BebidaDecorator;
 import Decorator.Decorator;
 import Decorator.EstacionamientoDecorator;
+import Decorator.TicketConEstacionamiento;
+import Decorator.TicketConBebida;
+import Decorator.TicketConEstacionamiento;
 
 public class User {
     private int idUser;
