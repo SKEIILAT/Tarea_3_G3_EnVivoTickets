@@ -1,5 +1,5 @@
 # EnVivoTickets
-# IMPLEMENTACIÓN DEL SISTEMA DISEÑADO - Descripción de los patrones de diseño aplicados y su justificación
+# Descripción de los patrones de diseño aplicados y su justificación
 1. # Chain of Responsibility:
 # Descripción: 
 Este patrón permite pasar una solicitud a lo largo de una cadena de objetos receptores, donde cada uno tiene la posibilidad de procesar la solicitud o pasarla al siguiente objeto de la cadena.
@@ -35,7 +35,8 @@ experiencia del cliente al proporcionarle actualizaciones inmediatas.
 4. # Abstract Factory
 # Descripción:
 Este patrón proporciona una interfaz para crear familias de objetos relacionados sin especificar sus clases concretas
-# Justificación: El Abstract Factory se seleccionó ya que permite crear 
+# Justificación: 
+El Abstract Factory se seleccionó ya que permite crear 
 familias de objetos (como conjuntos de asientos, políticas de precios y configuraciones 
 de espectáculos) sin especificar las clases concretas. Al definir fábricas abstractas, resulta 
 sencillo añadir nuevas categorías de asientos, tipos de espectáculos o políticas de precio, 
